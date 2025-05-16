@@ -1,0 +1,11 @@
+monitor_id,monitor_name,target_url,description,frequencyMin,enabled,location_id,device_name,network_type,script_type,tag_purpose,tag_industry,tag_owner,tag_expiry_date,tag_custom
+1,TEST_https://www.konicaminolta.com/jp-ja/investors/_PC,https://www.konicaminolta.com/jp-ja/investors/,TEST,15,FALSE,GEOLOCATION-7F39AED31559436D;GEOLOCATION-D8F2F06B2E95DBD0,Desktop,WiFi,availability,Report,Bank,Koizumi,250531,test:1234;python:1111
+2,TEST_https://www.itochu.co.jp/ja/ir/_PC,https://www.itochu.co.jp/ja/ir/,TEST,15,FALSE,GEOLOCATION-7F39AED31559436D,Desktop,WiFi,availability,Report,Bank,Koizumi,250531,test:1234;python:1111
+3,TEST_https://www.softbank.jp/corp/ir/_PC,https://www.softbank.jp/corp/ir/,TEST,15,FALSE,GEOLOCATION-7F39AED31559436D,Desktop,WiFi,availability,Report,Bank,Koizumi,250531,test:1234;python:1111
+4,TEST_https://www.nipponpaint-holdings.com/ir/_PC,https://www.nipponpaint-holdings.com/ir/,TEST,15,FALSE,GEOLOCATION-7F39AED31559436D,Desktop,WiFi,availability,Report,Bank,Koizumi,250531,test:1234;python:1111
+5,TEST_https://www.chugai-pharm.co.jp/ir/_PC,https://www.chugai-pharm.co.jp/ir/,TEST,15,FALSE,GEOLOCATION-7F39AED31559436D,Desktop,WiFi,availability,Report,Bank,Koizumi,250531,test:1234;python:1111
+6,TEST_https://www.7andi.com/ir/_PC,https://www.7andi.com/ir/,TEST,15,FALSE,GEOLOCATION-7F39AED31559436D,Desktop,WiFi,availability,Report,Bank,Koizumi,250531,test:1234;python:1111
+7,TEST_https://www.resona-gr.co.jp/holdings/investors/_PC,https://www.resona-gr.co.jp/holdings/investors/,TEST,15,FALSE,GEOLOCATION-7F39AED31559436D,Desktop,WiFi,availability,Report,Bank,Koizumi,250531,test:1234;python:1111
+8,TEST_https://www.mizuho-fg.co.jp/investors/index.html_PC,https://www.mizuho-fg.co.jp/investors/index.html,TEST,15,FALSE,GEOLOCATION-7F39AED31559436D,Desktop,WiFi,availability,Report,Bank,Koizumi,250531,test:1234;python:1111
+9,TEST_https://www.sompo-hd.com/ir/_PC,https://www.sompo-hd.com/ir/,TEST,15,FALSE,GEOLOCATION-7F39AED31559436D,Desktop,WiFi,availability,Report,Bank,Koizumi,250531,test:1234;python:1111
+10,TEST_https://www.dai-ichi-life-hd.com/investor/_PC,https://www.dai-ichi-life-hd.com/investor/,TEST,15,FALSE,GEOLOCATION-7F39AED31559436D,Desktop,WiFi,availability,Report,Bank,Koizumi,250531,test:1234;python:1111

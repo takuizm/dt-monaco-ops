@@ -1,0 +1,8 @@
+configs:
+- id: SYNTHETIC_LOCATION-26DE32B1CFB47CD6
+  config:
+    name: tokyo
+    template: SYNTHETIC_LOCATION-26DE32B1CFB47CD6.json
+    skip: false
+  type:
+    api: synthetic-location

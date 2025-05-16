@@ -1,0 +1,11 @@
+configs:
+- id: 0a23c017-c0a4-388f-8af2-aed6e9f97368
+  config:
+    template: 0a23c017-c0a4-388f-8af2-aed6e9f97368.json
+    skip: false
+    originObjectId: vu9U3hXa3q0AAAABAB5idWlsdGluOnN5bnRoZXRpYy5icm93c2VyLm5hbWUADlNZTlRIRVRJQ19URVNUABA0NDk3RTg3MDVDREU0RjcxACQ2ZDExOWRjYS1kMjVhLTM4NzctODVkYS1lNGEwYzNmNGY3YjG-71TeFdrerQ
+  type:
+    settings:
+      schema: builtin:synthetic.browser.name
+      schemaVersion: 1.0.2
+      scope: SYNTHETIC_TEST-4497E8705CDE4F71

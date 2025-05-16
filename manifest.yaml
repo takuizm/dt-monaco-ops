@@ -1,0 +1,13 @@
+manifestVersion: 1
+
+environmentGroups:
+- name: prod
+  environments:
+  - name: prod
+    url: https://btn33518.live.dynatrace.com
+    auth:
+      token:
+        name: DT_API_TOKEN
+projects:
+- name: synthetic-monitor
+  path: projects/synthetic-monitor

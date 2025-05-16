@@ -1,0 +1,8 @@
+configs:
+- id: extension-elasticsearch
+  config:
+    name: extension-elasticsearch
+    template: extension-elasticsearch.json
+    skip: false
+  type:
+    api: extension-elasticsearch

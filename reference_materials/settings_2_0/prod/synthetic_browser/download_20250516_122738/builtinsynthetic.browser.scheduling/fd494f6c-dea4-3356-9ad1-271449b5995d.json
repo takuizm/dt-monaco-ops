@@ -1,0 +1,8 @@
+{
+  "frequency": 60,
+  "locations": [
+    {
+      "location": "{{ .extractedIDs.id_SYNTHETIC_LOCATION_0000000000000035 }}"
+    }
+  ]
+}

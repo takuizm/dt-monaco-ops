@@ -1,0 +1,94 @@
+{
+  "anomalyDetection": {
+    "loadingTimeThresholds": {
+      "enabled": false,
+      "thresholds": []
+    },
+    "outageHandling": {
+      "globalOutage": true,
+      "globalOutagePolicy": {
+        "consecutiveRuns": 1
+      },
+      "localOutage": false,
+      "localOutagePolicy": {
+        "affectedLocations": null,
+        "consecutiveRuns": null
+      },
+      "retryOnError": true
+    }
+  },
+  "automaticallyAssignedApps": [],
+  "createdFrom": "GUI",
+  "enabled": true,
+  "events": [
+    {
+      "entityId": "{{ .extractedIDs.id_SYNTHETIC_TEST_STEP_D35CEF870A7E25D9 }}",
+      "name": "Loading of \"https://brotosol.co.jp\"",
+      "sequenceNumber": 1
+    }
+  ],
+  "frequencyMin": 60,
+  "keyPerformanceMetrics": {
+    "loadActionKpm": "VISUALLY_COMPLETE",
+    "xhrActionKpm": "VISUALLY_COMPLETE"
+  },
+  "locations": [
+    "{{ .extractedIDs.id_GEOLOCATION_7F39AED31559436D }}"
+  ],
+  "managementZones": [],
+  "manuallyAssignedApps": [],
+  "name": "{{.name}}",
+  "script": {
+    "configuration": {
+      "bandwidth": {
+        "networkType": "WiFi"
+      },
+      "chromiumStartupFlags": {
+        "disable-web-security": false
+      },
+      "device": {
+        "deviceName": "Desktop",
+        "orientation": "landscape"
+      }
+    },
+    "events": [
+      {
+        "description": "Loading of \"https://brotosol.co.jp\"",
+        "type": "navigate",
+        "url": "https://brotosol.co.jp",
+        "wait": {
+          "waitFor": "page_complete"
+        }
+      }
+    ],
+    "type": "availability",
+    "version": "1.0"
+  },
+  "tags": [
+    {
+      "context": "CONTEXTLESS",
+      "key": "Owner",
+      "source": "USER",
+      "value": "Koizumi"
+    },
+    {
+      "context": "CONTEXTLESS",
+      "key": "Purpose",
+      "source": "USER",
+      "value": "Report"
+    },
+    {
+      "context": "CONTEXTLESS",
+      "key": "ExpiryDate",
+      "source": "USER",
+      "value": "250531"
+    },
+    {
+      "context": "CONTEXTLESS",
+      "key": "Industry",
+      "source": "USER",
+      "value": "It"
+    }
+  ],
+  "type": "BROWSER"
+}

@@ -1,0 +1,16 @@
+configs:
+- id: fd494f6c-dea4-3356-9ad1-271449b5995d
+  config:
+    parameters:
+      extractedIDs:
+        type: value
+        value:
+          id_SYNTHETIC_LOCATION_0000000000000035: SYNTHETIC_LOCATION-0000000000000035
+    template: fd494f6c-dea4-3356-9ad1-271449b5995d.json
+    skip: false
+    originObjectId: vu9U3hXa3q0AAAABACRidWlsdGluOnN5bnRoZXRpYy5icm93c2VyLnNjaGVkdWxpbmcADlNZTlRIRVRJQ19URVNUABA0NDk3RTg3MDVDREU0RjcxACRjZDU4ZDgxNC05ZjdlLTNlMGUtOTUyYS1jZDA0Yzc5NDkzZWW-71TeFdrerQ
+  type:
+    settings:
+      schema: builtin:synthetic.browser.scheduling
+      schemaVersion: 3.4.3
+      scope: SYNTHETIC_TEST-4497E8705CDE4F71

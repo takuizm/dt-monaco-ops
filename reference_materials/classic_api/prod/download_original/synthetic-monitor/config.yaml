@@ -1,0 +1,14 @@
+configs:
+- id: SYNTHETIC_TEST-4497E8705CDE4F71
+  config:
+    name: brotosol.co.jp
+    parameters:
+      extractedIDs:
+        type: value
+        value:
+          id_GEOLOCATION_7F39AED31559436D: GEOLOCATION-7F39AED31559436D
+          id_SYNTHETIC_TEST_STEP_D35CEF870A7E25D9: SYNTHETIC_TEST_STEP-D35CEF870A7E25D9
+    template: SYNTHETIC_TEST-4497E8705CDE4F71.json
+    skip: false
+  type:
+    api: synthetic-monitor
