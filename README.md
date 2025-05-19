@@ -9,11 +9,11 @@
 
 ```mermaid
 graph TD
-    A[1. .envファイル準備<br>(APIトークン, 環境URLを設定)] --> B[2. CSVファイル準備<br>(モニター情報を記載)];
-    B --> C{3. deploy_all.sh 実行};
-    C --> E[3-1. Pythonスクリプト実行<br>(CSVからMonaco設定ファイルを生成)];
-    E --> F[3-2. monaco deploy実行<br>(生成した設定ファイルをDynatraceに適用)];
-    F --> D[4. Dynatrace環境<br>(合成モニターが作成/更新される)<br>※モニターIDが同じ場合は更新<br>※新規IDの場合は新規作成];
+    A[Step 1:  .envファイル準備（APIトークン, 環境URLを設定）] --> B[Step 2: CSVファイル準備（モニター情報を記載）]
+    B --> C{Step 3: deploy_all.sh 実行}
+    C --> D[Step 3-1: Pythonスクリプト<br>（CSVからMonaco設定ファイルを生成）]
+    D --> E[Step 3-2: monaco deploy<br>（生成した設定ファイルをDynatraceに適用）]
+    E --> F[Step 4: Dynatrace環境<br>（合成モニターが作成更新される）<br>※モニターIDが同じ場合は更新<br>※新規IDの場合は新規作成]
 ```
 
 1.  **`.env` ファイルの準備**: DynatraceのAPIトークンと環境URLを記述した `.env` ファイルをプロジェクトルートに配置します（初回のみ）。
